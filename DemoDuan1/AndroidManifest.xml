@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cc.demoduan1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".NhaccuatuiActivity"
+            android:label="@string/title_activity_nhaccuatui" >
+        </activity>
+        <activity
+            android:name=".ThietbiDDActivity"
+            android:label="@string/title_activity_thietbi_dd" >
+        </activity>
+        <activity
+            android:name=".OnlineActivity"
+            android:label="@string/title_activity_online" >
+        </activity>
+        <activity
+            android:name=".AlbumTBActivity"
+            android:label="@string/title_activity_album_tb" >
+        </activity>
+        <activity
+            android:name=".BaiHatTBActivity"
+            android:label="@string/title_activity_bai_hat_tb" >
+        </activity>
+        <activity
+            android:name=".NgheSiTBActivity"
+            android:label="@string/title_activity_nghe_si_tb" >
+        </activity>
+        <activity
+            android:name=".FoderTBActivity"
+            android:label="@string/title_activity_foder_tb" >
+        </activity>
+        <activity
+            android:name=".TrangChuActivity"
+            android:label="@string/title_activity_trang_chu" >
+        </activity>
+        <activity
+            android:name=".PlayListActivity"
+            android:label="@string/title_activity_play_list" >
+        </activity>
+        <activity
+            android:name=".BaiHatOLActivity"
+            android:label="@string/title_activity_bai_hat_ol" >
+        </activity>
+        <activity
+            android:name=".NgheSiOLActivity"
+            android:label="@string/title_activity_nghe_si_ol" >
+        </activity>
+        <activity
+            android:name=".XoaActivity"
+            android:label="@string/title_activity_xoa" >
+        </activity>
+        <activity
+            android:name=".NenChinhActivity"
+            android:label="@string/title_activity_nen_chinh" >
+        </activity>
+        <activity
+            android:name=".BaihatActivity"
+            android:label="@string/title_activity_baihat" >
+        </activity>
+        <activity
+            android:name=".PlayListsActivity"
+            android:label="@string/title_activity_play_lists" >
+        </activity>
+        <activity
+            android:name=".ThietBiDDActivity"
+            android:label="@string/title_activity_thiet_bi_dd" >
+        </activity>
+        <activity
+            android:name=".DanhSachBHActivity"
+            android:label="@string/title_activity_danh_sach_bh" >
+        </activity>
+        <activity
+            android:name=".Baihat2Activity"
+            android:label="@string/title_activity_baihat2" >
+        </activity>
+        <activity
+            android:name=".Baihat3Activity"
+            android:label="@string/title_activity_baihat3" >
+        </activity>
+        <activity
+            android:name=".Baihat4Activity"
+            android:label="@string/title_activity_baihat4" >
+        </activity>
+        <activity
+            android:name=".Baihat5Activity"
+            android:label="@string/title_activity_baihat5" >
+        </activity>
+        <activity
+            android:name=".Baihat6Activity"
+            android:label="@string/title_activity_baihat6" >
+        </activity>
+        <activity
+            android:name=".Baihat7Activity"
+            android:label="@string/title_activity_baihat7" >
+        </activity>
+        <activity
+            android:name=".Baihat8Activity"
+            android:label="@string/title_activity_baihat8" >
+        </activity>
+        <activity
+            android:name=".Baihat9Activity"
+            android:label="@string/title_activity_baihat9" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>
