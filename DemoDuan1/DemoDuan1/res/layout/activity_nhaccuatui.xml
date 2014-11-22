@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+<Button 
+    android:id="@+id/btndn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Đăng Nhập"
+    />
+<LinearLayout 
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cloud"
+        android:layout_marginTop="20dp"
+        android:background="#AAAAAA"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImpView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="baihat"
+            android:padding="5dp"
+            android:src="@drawable/baihat" />
+
+        <TextView
+            android:id="@+id/lblbaihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ImpView1"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:onClick="baihat"
+            android:text="Bài Hát" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playlist"
+            android:padding="5dp"
+            android:src="@drawable/playlist" />
+
+        <TextView
+            android:id="@+id/lblplaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="playlist"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img2"
+            android:text="Playlist" />
+    </RelativeLayout>
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offine"
+        android:layout_marginTop="40dp"
+        android:background="#AAAAAA"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="baihat"
+            android:padding="5dp"
+            android:src="@drawable/baihat" />
+
+        <TextView
+            android:id="@+id/lblbaihat1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img3"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:onClick="baihat"
+            android:text="Bài Hát" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="playlist"
+            android:padding="5dp"
+            android:src="@drawable/playlist" />
+
+        <TextView
+            android:id="@+id/lblplaylist1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="playlist"
+            android:background="#ffffff"
+            android:layout_toRightOf="@id/img4"
+            android:text="Playlist" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="taive"
+            android:padding="5dp"
+            android:src="@drawable/playlist" />
+
+        <TextView
+            android:id="@+id/lbltaive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:onClick="taive"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/img5"
+            android:text="Tai Về" />
+    </RelativeLayout>
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online"
+        android:layout_marginTop="40dp"
+        android:background="#AAAAAA"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="nhaccuatui"
+            android:padding="5dp"
+            android:src="@drawable/baihat" />
+
+        <TextView
+            android:id="@+id/lblnhaccuatui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img6"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:onClick="nhaccuatui"
+            android:text="Nhạc Của Tui" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="nhactuithich"
+            android:padding="5dp"
+            android:src="@drawable/playlist" />
+
+        <TextView
+            android:id="@+id/lblnhactuithich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="nhactuithich"
+            android:layout_toRightOf="@+id/img7"
+            android:background="#ffffff"
+            android:layout_marginTop="5dp"
+            android:text="Nhac Tui Thich" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="lichsu"
+            android:padding="5dp"
+            android:src="@drawable/playlist" />
+
+        <TextView
+            android:id="@+id/lbllichsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:onClick="lichsu"
+            android:layout_toRightOf="@+id/img8"
+            android:text="Lich Su" />
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

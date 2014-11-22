@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="205dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:background="#99FF33"
+        android:text="Nhac tuyen Chon" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_alignParentRight="true"
+        android:background="#FF0000"
+        android:paddingTop="10dp"
+        android:text="Ho Quang Hieu" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn2"
+        android:background="#FF66FF"
+        android:layout_marginRight="3dp"
+        android:text="Son Tung MTP" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btn1"
+        android:background="#FF0000"
+        android:layout_marginTop="5dp"
+        android:text="Luong Bich Huu" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btn1"
+        android:layout_toRightOf="@id/btn4"
+        android:background="#006600"
+        android:text="Chau Khai Phong" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="110dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn3"
+        android:background="#00FF00"
+        android:layout_marginRight="3dp"
+        android:text="Lam Chan Khang" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/btn4"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="#006600"
+        android:text="Leg" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/btn5"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/btn7"
+        android:background="#FF6699"
+        android:text="Hoai Lam" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btn6"
+        android:background="#006600"
+        android:layout_marginRight="3dp"
+        android:text="nhac vang" />
+
+</RelativeLayout>
