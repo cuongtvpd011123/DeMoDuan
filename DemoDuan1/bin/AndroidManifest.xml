@@ -37,46 +37,6 @@
             android:label="@string/title_activity_online" >
         </activity>
         <activity
-            android:name=".AlbumTBActivity"
-            android:label="@string/title_activity_album_tb" >
-        </activity>
-        <activity
-            android:name=".BaiHatTBActivity"
-            android:label="@string/title_activity_bai_hat_tb" >
-        </activity>
-        <activity
-            android:name=".NgheSiTBActivity"
-            android:label="@string/title_activity_nghe_si_tb" >
-        </activity>
-        <activity
-            android:name=".FoderTBActivity"
-            android:label="@string/title_activity_foder_tb" >
-        </activity>
-        <activity
-            android:name=".TrangChuActivity"
-            android:label="@string/title_activity_trang_chu" >
-        </activity>
-        <activity
-            android:name=".PlayListActivity"
-            android:label="@string/title_activity_play_list" >
-        </activity>
-        <activity
-            android:name=".BaiHatOLActivity"
-            android:label="@string/title_activity_bai_hat_ol" >
-        </activity>
-        <activity
-            android:name=".NgheSiOLActivity"
-            android:label="@string/title_activity_nghe_si_ol" >
-        </activity>
-        <activity
-            android:name=".XoaActivity"
-            android:label="@string/title_activity_xoa" >
-        </activity>
-        <activity
-            android:name=".NenChinhActivity"
-            android:label="@string/title_activity_nen_chinh" >
-        </activity>
-        <activity
             android:name=".BaihatActivity"
             android:label="@string/title_activity_baihat" >
         </activity>
@@ -99,30 +59,6 @@
         <activity
             android:name=".Baihat3Activity"
             android:label="@string/title_activity_baihat3" >
-        </activity>
-        <activity
-            android:name=".Baihat4Activity"
-            android:label="@string/title_activity_baihat4" >
-        </activity>
-        <activity
-            android:name=".Baihat5Activity"
-            android:label="@string/title_activity_baihat5" >
-        </activity>
-        <activity
-            android:name=".Baihat6Activity"
-            android:label="@string/title_activity_baihat6" >
-        </activity>
-        <activity
-            android:name=".Baihat7Activity"
-            android:label="@string/title_activity_baihat7" >
-        </activity>
-        <activity
-            android:name=".Baihat8Activity"
-            android:label="@string/title_activity_baihat8" >
-        </activity>
-        <activity
-            android:name=".Baihat9Activity"
-            android:label="@string/title_activity_baihat9" >
         </activity>
     </application>
 
